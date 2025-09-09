@@ -1,0 +1,170 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 0 auto;
+    font-size: 16px;
+    max-width: 1280px;
+}
+/* header containter start */
+.header-container {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    text-align: center;
+    margin-left: 10px;
+}
+
+.navigation-links {
+    display: flex;
+    column-gap: 15px;
+    margin-right: 10px;
+}
+
+.bookmark {
+    color: black;
+    text-decoration: none;
+}
+
+.bookmark:hover{
+    text-decoration: underline;
+}
+/* header container close */
+
+/* hero image start */
+.hero-image{
+    max-width: 100%;
+}
+/* hero image end */
+
+/* Banner start */
+.banner-container{
+margin-top: 50px;
+text-align: center;
+}
+/* Banner end */
+
+/* Tour section starts */
+.option-container{
+    background-color: #e9f1f7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+
+.option-header{
+    text-align: center;
+}
+
+.option-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: centers;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.option-image{
+    width: 300px;
+    border-radius: 4px;
+}
+
+.option-card-content{
+    width: 300px;
+}
+
+.option-card-content{
+    color: #6b6a6a;
+}
+
+.option-card-content > p{
+color: #6b6a6a;
+}
+
+.option-card:hover{
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.option-card:nth-of-type(2){
+    flex-direction: row-reverse;
+}
+/* Tour section ends */
+
+/* Newsletter section start */
+.newsletter{
+    margin-top: 80px;
+}
+
+.newsletter-form-containter{
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.newsletter-signup-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    flex-wrap: wrap;
+}
+
+.newsletter-signup-form input[type="email"]{
+    width: 250px;
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.newsletter-signup-form input[type="submit"]{
+    width: 250px;
+    padding: 15px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.newsletter-signup-text{
+    margin: 10px auto 0;
+    width: 60%;
+}
+/* Newsletter section end */
+
+/* Footer start */
+.fat-footer{
+    margin-top: 80px;
+    background-color: #e9f1f7;
+    color: black;
+}
+
+.fat-footer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info,
+.about-us{
+    width: 250px;
+}
+
+.footer-links{
+    width: 150px;
+}
+/* Footer end */
